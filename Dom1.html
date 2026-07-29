@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      .Highlight {
+        background-color: yellow;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>Event Handling In DOM</h1>
+      <button id="clickmebutton">Click Me!</button>
+    </section>
+
+    <section>
+      <h2>Event Delegation</h2>
+      <ul id="tealist">
+        <li class="teaitem">Green Tea</li>
+        <li class="teaitem">Oolang Tea</li>
+        <li class="teaitem">Black Tea</li>
+      </ul>
+      <p>Click Any Tea To Select It.</p>
+    </section>
+
+    <section>
+      <h3>Form Handling</h3>
+      <form id="Feedbackform">
+        <label for="FeedbackInput">Your Feedback</label>
+        <input type="text" id="FeedbackInput" placeholder="Enter Feedback" />
+        <button type="submit">Submit Feedback</button>
+      </form>
+      <p id="feedbackdisplay"></p>
+    </section>
+
+    <section>
+      <h3>DOM Content Loaded</h3>
+      <p id="domStatus">Waiting for DOM to load...</p>
+    </section>
+
+    <section>
+      <h4>CSS Classes Mnipulation</h4>
+      <p id="Descriptiontext">This Text Will Change Color!</p>
+      <button id="togglehighlight">Toggle Highlight</button>
+    </section>
+    <script src="./script1.js"></script>
+  </body>
+</html>
