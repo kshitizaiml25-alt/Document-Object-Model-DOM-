@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <style>
+        body {
+            color: #fefefe;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        .highlight {
+            background-color: rgb(191, 255, 0);
+            color: black;
+
+        }
+    </style> 
+</head>
+<body>
+    <section>
+    <h1>
+        JavaScript Dom Fun examples.
+    </h1>
+    <h2 id="Example 1">
+        Accessing Dom Element
+    </h2>
+    <h3 id="Heading File">
+        This is the paragraph. Click the button to change me.
+    </h3>
+    <button id="mychangebutton">Change Text</button>
+    </section>
+
+    <section>
+        <h4>Transversing the DOM</h4>
+        <ul id="CitiesList">
+            <li class="DOM">New York</li>
+            <li>Tokyo</li>
+            <li>Paris</li>
+            <li>London</li>
+        </ul>
+        <button id="highlightfirstcity">Highlight First City</button>
+    </section>
+
+    <section>
+        <h4>Manipulating DOM Element</h4>
+        <div id="Coffee Order">Order: <span id="coffeetype">
+            Lattee
+        </span></div>
+        <button id="changeorder">Change Order to Espresso</button>
+    </section>
+    <section>
+        <h5>Creating and Inserting Element</h5>
+        <button id="addNewItem">Add New Item To The Shopping List</button>
+        <ul id="shoppinglist">
+            <li>Bread</li>
+            <li>Milk</li>
+        </ul>
+    </section>
+
+    <section>
+        <h6>Removing DOM Element</h6>
+        <ul id="taskllist">
+            <li>Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+        </ul>
+        <button id="removingbutton">Removing the Last Task Button</button>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
